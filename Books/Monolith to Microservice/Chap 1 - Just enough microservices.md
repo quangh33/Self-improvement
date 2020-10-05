@@ -53,4 +53,19 @@ as `monoliths` are also distributed systems.
 #### Cohesion & Coupling
 - Cohesion: the code that changes together, stays together
 - Coupling: 
-    - implementation coupling: When implementation of B changes, A also changes
+    - implementation coupling: 
+        - When implementation of B changes, A also changes
+        - to avoid: using interface
+        
+        ![](../images/c7479329.png)
+    
+    - temporal coupling
+    
+        ![](../images/09d4f191.png)
+        - sync calls in distributed system
+        - avoid: using cache or message queue
+
+    - deployment coupling
+        - deploy unchanged services
+        - smaller release make less risk
+
