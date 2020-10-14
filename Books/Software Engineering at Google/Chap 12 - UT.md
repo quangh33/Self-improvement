@@ -69,3 +69,20 @@ a particular state, expressed using
 ![](../images/606800bb.png)
 
 ![](../images/fcb26452.png)
+
+7. Shared values
+- Many tests are structured by defining a set of shared values to be used by tests
+=> when number of tests grows, it can be difficult to understand why
+a particular value was chosen for a test.
+
+- A better way is to construct data using a Builder
+
+
+8. Shared setup
+- One risk of using shared setup is they can lead to unclear
+tests if those tests begin to depend on the particular values used in setup.
+
+![](../images/0da14e1b.png)
+
+=> Test reader needs to go hunting to discover where `Donald Knuth` came from.
+
