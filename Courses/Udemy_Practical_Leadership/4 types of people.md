@@ -1,0 +1,1 @@
+![](.4 types of people_images/848d4803.png)
