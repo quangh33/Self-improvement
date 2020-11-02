@@ -1,0 +1,40 @@
+syntax = "proto3";
+/*
+    This proto file define users across our system
+ */
+message Person {
+  int32 age = 1;
+  string first_name = 2;
+  string last_name = 3;
+  // small .jpg file
+  bytes small_picture = 4;
+  bool is_verified = 5;
+  float height = 6;
+  repeated string phone_numbers = 7;
+
+  enum EyeColor {
+    UNKNOWN = 0;
+    BROWN = 1;
+    GREEN = 2;
+    BLACK = 3;
+  }
+
+  EyeColor eye_color = 8;
+  Date birthday = 9;
+
+  message Address {
+    string address_line_1 = 1;
+    string address_line_2 = 2;
+    string zip_code = 3;
+    string city = 4;
+    string country = 5;
+  }
+
+  repeated Address addresses = 10;
+}
+
+message Date {
+  int32 day = 3;
+  int32 month = 2;
+  int32 year = 1;
+}
