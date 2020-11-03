@@ -1,0 +1,14 @@
+syntax = "proto3";
+package complex;
+
+option go_package = "complex;complexpb";
+
+message ComplexMessage {
+  DummyMessage one_dummy = 2;
+  repeated DummyMessage multiple_dummy = 3;
+}
+
+message DummyMessage {
+  int32 id = 1;
+  string name = 2;
+}

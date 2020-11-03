@@ -20,4 +20,9 @@
 - enum: first value
 - repeated: empty list
 
-#### Enum
+#### Integer
+- uint32, uint64, int32, int64, sint32, sint64
+=> variable encoding, if they can use less space, they will use
+- fixed32 use 4 bytes constantly => if values are often > 2^28, use fixed32
+- fixed64 use 8 bytes constantly => if values are often > 2^56, use fixed32
+- sint32, sint64 are more space efficient for negative number
