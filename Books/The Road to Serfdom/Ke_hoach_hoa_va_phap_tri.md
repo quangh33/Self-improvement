@@ -3,6 +3,12 @@ hoạt động của chính phủ fai tuân thủ các quy tắc đã được
 ấn định và tuyên bố từ trước. Phạm vi mà cơ quan hành pháp
 có thể tự ý hành động phải được giảm thiểu đến mức tối đa.
 
+> Pháp trị “trước hết là uy quyền tối cao và uy thế tuyệt đối của 
+> pháp luật hiện hành, chống lại những quyết định tùy tiện của chính quyền 
+> và không chấp nhận không chỉ sự độc đoán của chính phủ mà cả khả năng tùy 
+> nghi hành động trong những hoàn cảnh nào đó.
+  
+  Excerpt From: Friedrich Hayek. “Đường Về Nô Lệ”. Apple Books. 
 - Pháp trị vs Chính phủ độc đoán:
     - `Pháp trị`: đặt ra các điều luật quy định điều kiện sử dụng các nguồn
     lực hiện có, còn mục đích sử dụng thì để cho các cá nhân
@@ -17,7 +23,7 @@ có thể tự ý hành động phải được giảm thiểu đến mức tố
     khác nhau.
     
 > Hai cách làm này khác nhau như việc ban hành Luật đi đường và chỉ cho người ta phải đi đâu hay nói một cách dễ hiểu hơn 
->là giữa việc đặt những tấm biển chỉ đường và chỉ cho người ta phải đi theo đường nào.
+> là giữa việc đặt những tấm biển chỉ đường và chỉ cho người ta phải đi theo đường nào.
       
 - Khi chính phủ cố lựa chọn mục tiêu cho người dân, nó ko còn là bộ máy
 công lợi, bộ máy có trách nhiệm giúp đỡ các cá nhân thể hiện được
